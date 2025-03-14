@@ -1,0 +1,136 @@
+/* Your styles here */
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.5;
+  font-family: "Montserrat bold", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.8;
+}
+p {
+  margin-bottom: 1rem;
+}
+body {
+  line-height: 1.65;
+}
+h3 {
+  color: #25a2c3;
+  text-align: center;
+}
+h2 body {
+  color: #393d41;
+  padding: 1em;
+}
+.logo {
+  padding: 1rem;
+}
+header {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 600;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  background-image: url(../images/banner.jpg);
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Montserrat" bold, sans-serif;
+}
+section,
+h1 {
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  font-size: 20px;
+  color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  line-height: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  border-style: none;
+}
+.subtitle {
+  text-align: center;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif bold;
+}
+button {
+  text-align: center;
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif bold;
+  border-radius: 3px;
+}
+.first {
+  border-radius: 50%;
+  text-align: center;
+}
+.guarantee {
+  background-color: #f04c2f;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+div,
+h2,
+p {
+  font-family: italic;
+}
+.brackets {
+  font-style: oblique;
+}
+div {
+  padding: 1rem;
+  border: linear black;
+}
+div,
+p {
+  text-align: center;
+}
+.schede {
+  background-color: #dee1e3;
+  margin-bottom: 2rem;
+}
+.scheda2 {
+  background-color: #dee1e3;
+  margin-bottom: 2rem;
+}
+.schede3 {
+  background-color: #dee1e3;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #0c7ea0;
+  color: white;
+  line-height: 1.65;
+  text-align: center;
+  padding: 2rem;
+  margin: 0em;
+}
+footer,
+p {
+  padding: 1%;
+}
+footer,
+b {
+  color: white;
+}
+footer,
+i {
+  color: white;
+}
+footer,
+a {
+  color: #00caff;
+}
