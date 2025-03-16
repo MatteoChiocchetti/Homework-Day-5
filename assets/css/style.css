@@ -1,27 +1,31 @@
 /* Your styles here */
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-size: 1.2rem;
   margin: 0px;
+  line-height: 1.65;
 }
 h1,
 h2,
 h3,
 h4 {
-  line-height: 1.5;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  line-height: 1.5;
+  font-weight: 700;
   margin-bottom: 0.8;
 }
 p {
   margin-bottom: 1rem;
-  font-family: "Open Sans", sans-serif;
 }
-body {
-  line-height: 1.65;
-}
+
 div {
   padding: 0px;
+}
+div,
+h2,
+span {
+  display: block;
 }
 h3 {
   color: #25a2c3;
@@ -33,6 +37,7 @@ h2 body {
 }
 .logo {
   padding: 0rem;
+  vertical-align: bottom;
 }
 section {
   background-image: url(../images/banner.jpg);
@@ -40,7 +45,7 @@ section {
   background-size: 100%;
   text-align: center;
   margin-top: 0rem;
-  font-family: "Montserrat" bold, sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0em;
 }
 section,
@@ -74,6 +79,7 @@ button {
 .first {
   border-radius: 50%;
   text-align: center;
+  max-width: 75%;
 }
 .guarantee {
   background-color: #f04c2f;
@@ -82,16 +88,10 @@ button {
   margin-bottom: 2rem;
   width: 100%;
 }
-div,
-h2,
-p {
-  font-family: italic;
-}
 .brackets {
   font-style: oblique;
 }
-div {
-}
+
 div,
 p {
   text-align: center;
@@ -116,6 +116,7 @@ footer {
   text-align: center;
   width: 100%;
 }
+
 footer,
 p {
   padding: 1%;
@@ -130,5 +131,5 @@ i {
 }
 footer,
 a {
-  color: #00caff;
+  color: white;
 }
