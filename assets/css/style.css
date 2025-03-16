@@ -1,8 +1,8 @@
 /* Your styles here */
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 2rem;
   font-size: 1.2rem;
+  margin: 0px;
 }
 h1,
 h2,
@@ -15,9 +15,13 @@ h4 {
 }
 p {
   margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
 }
 body {
   line-height: 1.65;
+}
+div {
+  padding: 0px;
 }
 h3 {
   color: #25a2c3;
@@ -28,7 +32,7 @@ h2 body {
   padding: 1em;
 }
 .logo {
-  padding: 1rem;
+  padding: 0rem;
 }
 header {
   background-color: black;
@@ -36,12 +40,15 @@ header {
   color: white;
   font-size: 600;
   font-family: "Montserrat", sans-serif;
+  font-size: 10px;
 }
 section {
   background-image: url(../images/banner.jpg);
+  background-size: 100%;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
   font-family: "Montserrat" bold, sans-serif;
+  padding: 0em;
 }
 section,
 h1 {
@@ -51,12 +58,12 @@ h1 {
 button {
   font-size: 20px;
   color: #f04c2f;
-  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   display: inline-block;
   line-height: 1rem;
   margin: 1rem;
-  border-radius: 10px;
-  padding: 1rem;
+  border-radius: 15px;
+  padding: 1.5rem;
   border-style: none;
 }
 .subtitle {
@@ -80,6 +87,7 @@ button {
   color: white;
   text-align: center;
   margin-bottom: 2rem;
+  width: 100%;
 }
 div,
 h2,
@@ -90,24 +98,22 @@ p {
   font-style: oblique;
 }
 div {
-  padding: 1rem;
-  border: linear black;
 }
 div,
 p {
   text-align: center;
 }
 .schede {
-  background-color: #dee1e3;
   margin-bottom: 2rem;
+  padding: 1em;
 }
-.scheda2 {
-  background-color: #dee1e3;
+.impara {
   margin-bottom: 2rem;
+  padding: 1em;
 }
-.schede3 {
-  background-color: #dee1e3;
+.lavora {
   margin-bottom: 2rem;
+  padding: 1em;
 }
 
 footer {
@@ -115,8 +121,7 @@ footer {
   color: white;
   line-height: 1.65;
   text-align: center;
-  padding: 2rem;
-  margin: 0em;
+  width: 100%;
 }
 footer,
 p {
