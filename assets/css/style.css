@@ -34,16 +34,9 @@ h2 body {
 .logo {
   padding: 0rem;
 }
-header {
-  background-color: black;
-  text-align: center;
-  color: white;
-  font-size: 600;
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-}
 section {
   background-image: url(../images/banner.jpg);
+  display: inline-block;
   background-size: 100%;
   text-align: center;
   margin-top: 0rem;
